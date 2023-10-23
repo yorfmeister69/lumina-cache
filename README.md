@@ -4,6 +4,8 @@
 
 [//]: # (![Banner Image]&#40;URL_to_some_banner_or_logo_if_you_have_one&#41;)
 
+[![.NET](https://github.com/yorfmeister69/lumina-cache/actions/workflows/dotnet.yml/badge.svg)](https://github.com/yorfmeister69/lumina-cache/actions/workflows/dotnet.yml)
+
 ## 🌟 Features
 
 - **Type-safe Property Indexing**: Lumina Cache uses lambda expressions, ensuring type-safety and reducing potential runtime errors.
@@ -34,4 +36,4 @@ We welcome contributions! Please see our `CONTRIBUTING.md` for details on how yo
 
 ## 📄 License
 
-Lumina Cache is licensed under the [MIT License](LICENSE.md).
+Lumina Cache is licensed under the [MIT License](LICENSE).
