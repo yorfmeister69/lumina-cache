@@ -1,4 +1,24 @@
 <Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <!-- Essential NuGet package information -->
+        <Version>1.0.0</Version>
+        <PackageId>LuminaCache.Core</PackageId>
+        <Authors>yoosufx</Authors>
+        <Description>
+            Lumina Cache is a high-performance, in-memory caching solution tailored for modern .NET applications. Drawing inspiration from the brilliance and speed of light (Lumina is Latin for light), our goal is to ensure that your application's data access is as fast and efficient as photons racing through the void.
+        </Description>
+
+        <!-- This indicates that the output of the project should be packed -->
+        <IsPackable>true</IsPackable>
+
+        <!-- Optional properties -->
+        <Product>LuminaCache</Product>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression> 
+        <PackageProjectUrl>https://github.com/yorfmeister69/lumina-cache</PackageProjectUrl> 
+        <PackageTags>LuminaCache .NET Caching In-Memory Indexed Type-Safe Thread-Safe</PackageTags>
+        <RepositoryUrl>https://github.com/yorfmeister69/lumina-cache</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
+    </PropertyGroup>
 
     <PropertyGroup>
         <TargetFramework>netstandard2.1</TargetFramework>
