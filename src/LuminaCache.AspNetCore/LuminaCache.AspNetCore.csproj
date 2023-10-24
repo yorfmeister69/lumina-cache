@@ -7,6 +7,7 @@
         <Description>
             Lumina Cache is a high-performance, in-memory caching solution tailored for modern .NET applications. Drawing inspiration from the brilliance and speed of light (Lumina is Latin for light), our goal is to ensure that your application's data access is as fast and efficient as photons racing through the void.
         </Description>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
 
         <!-- This indicates that the output of the project should be packed -->
         <IsPackable>true</IsPackable>
@@ -26,6 +27,10 @@
         <TargetFrameworks>net6.0;net7.0</TargetFrameworks>
         <LangVersion>latestmajor</LangVersion>
     </PropertyGroup>
+
+    <ItemGroup>
+        <None Include="docs\README.md" Pack="true" PackagePath="\"/>
+    </ItemGroup>
 
     <ItemGroup>
       <ProjectReference Include="..\LuminaCache.Core\LuminaCache.Core.csproj" />
